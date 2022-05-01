@@ -1,0 +1,138 @@
+{
+    "ping": {
+        "title": "Pong! :ping_pong:",
+        "description": "**[Norium Status](https://noriumbot.com/status)**",
+        "fields": [{
+            "name": "Client",
+            "value": "{ping}"
+        }, {
+            "name": "API",
+            "value": "{api_ping}"
+        }]
+    },
+
+    "owner_only": {
+        "title": "Owner only",
+        "description": "You're not the owner of this Bot!"
+    },
+
+    "invalid_syntax": {
+        "title": "Invalid Syntax",
+        "description": "``<> Required, [] Optional``",
+        "fields": [{
+            "name": "Usage",
+            "value": "<usage, no translation available>"
+        },{
+            "name": "Example",
+            "value": "<example, no translation available"
+        }
+        ]
+    },
+
+    "no_permissions": {
+        "title": "No Permissions",
+        "description": "You are missing the ``<permission>`` permission."
+    },
+
+    "member_not_found": {
+        "title": "Member Not Found",
+        "description": "No member named ``<member>`` found."
+    },
+
+   "help": {
+       "title": "<:bars:956962805788082206> Help Menu",
+       "fields": [{
+           "name": "Moderation",
+           "value": "``-help moderation``"
+       }, {
+           "name": "Misc",
+           "value": "``-help misc``"
+       }, {
+           "name": "Utility",
+           "value": "``-help utility``"
+        }, {
+           "name": "Fun",
+           "value": "``-help fun``"
+        }, {
+           "name": "Management",
+           "value": "``-help management``"
+        }, {
+            "name": "Mariage",
+            "value": "``-help marriage``"
+        }, {
+            "name": "Links",
+            "value": "[Invite Me!], [Support], [Check out our website]"
+        }
+       ]
+   },
+
+   "about": {
+       "title": "About Norium Bot",
+       "description": "[Invite] | [Docs] | [Vote]",
+       "about-text": "Norium Bot is a multi-purpose Discord Bot focusing on giving the user the best possible experience." 
+   },   
+
+   "slowmode": {
+       "errors.ArgOver21600": {
+           "title": "Can't set Slowmode above 6 hours",
+           "description": "You cannot set the slowmode above 6 hours!"
+       },
+       "errors.ArgEqualToZero": {
+           "title": "Toggled Slowmode", 
+           "description": "Slowmode has been turned off."
+       },
+       "errors.Success": {
+           "title": "Slowmode is now set",
+           "description": "Set the slowmode delay to {arg} seconds!"
+       }
+   },
+
+   "grename": {
+       "title": "Renamed",
+       "description": "The guild has been renamed to {name}!"
+   },
+
+   "giveaway": {
+       "errors.NoDuration": {
+           "title": "No Duration",
+           "description": "Please include a duration!"
+       },
+       "errors.NoPrize": {
+           "title": "No Prize",
+           "description": "Please include a prize that you would like to give away!"
+       },
+       "errors.SuccessEnd": {
+           "description": "Congratulations to {winner.mention} for winning the {prize}!"
+       }
+   },
+
+   "command_count": {
+       "title": "Command Count",
+       "fields": [{
+           "name": "Excluding Help Commands",
+           "value": "blank"
+       }, {
+           "name": "Excluding This Command and Help Commands",
+           "value": "blank"
+       }
+       ]
+    },
+    
+    "tag": {
+        "description": "{member}'s discriminator is currently #{member.discriminator}."
+    },
+
+    "punishment_dm": {
+        "title": "You were <>",
+        "description": "⚠️ You were <> from a guild. More information below.",
+        "fields": [{
+            "name": "Guild",
+            "name2": "Moderator",
+            "name3": "Reason"
+        }]
+    },
+
+    "punishment_message": {
+        "title": "<>",
+        "description": "Successfully <> {member}#{member.discriminator}"
+}
